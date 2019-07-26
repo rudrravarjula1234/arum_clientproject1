@@ -10,7 +10,9 @@
     .topbar{
         display:none;
     }
+    
 }
+
 .topbar::before{
     display: table;
     content: " ";  
@@ -43,7 +45,8 @@
     flex-direction: row;
     flex-basis: auto;
     align-items: center;
-    height: 15vh;   
+    height: 15vh;  
+    padding:0px 20px; 
 }
 .logobar>div{
     display:flex;
@@ -63,11 +66,16 @@
 .logobar-logo>img{
     height:80;
     width:90;
+    margin-right:20px;
 }
 @media (min-width: 768px){
     .navbar-expand-md>.navbar-collapse>ul {
         width:100%;
         justify-content: space-between;
+        padding:0px 20px;
+    }
+    .navbar-toggler{
+        display: none;
     }
 }
 
