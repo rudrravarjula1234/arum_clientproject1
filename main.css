@@ -1,10 +1,15 @@
 .topbar{
-    height: 6vh;
+    height: 5vh;
     position: relative;
     display: flex;
     flex-basis: auto;
     align-items: center;
     background-color: #5dade2;
+}
+@media(max-width: 768px){
+    .topbar{
+        display:none;
+    }
 }
 .topbar::before{
     display: table;
@@ -53,7 +58,7 @@
     text-decoration: none;
     font-size: 2.3vw;
     margin-left:20px;
-    letter-spacing: 2px;   
+    letter-spacing: 0.5px;   
 }
 .logobar-logo>img{
     height:80;
