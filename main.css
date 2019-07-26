@@ -1,0 +1,22 @@
+.topbar{
+    height: 6vh;
+    position: relative;
+    display: flex;
+    flex-basis: auto;
+    align-items: center;
+}
+.topbar::before{
+    display: table;
+    content: " ";  
+      
+}
+.topbarcontainer{
+    display:flex;
+    flex-direction: row;
+}
+.topbar-contact>span{
+    margin-left: 20px;
+}
+div{
+    display: block;
+}
